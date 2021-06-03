@@ -1,0 +1,80 @@
+{
+  "name": "project-root",
+  "private": true,
+  "description": "Mono-repository root",
+  "license": "MIT",
+  "author": "alabs.team <npm@alabs.team>",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "compile": "NODE_ENV=production yarn rollup -c",
+    "postinstall": "husky install",
+    "lint": "yarn eslint packages",
+    "lint:files": "yarn eslint --no-ignore --cache --max-warnings 0",
+    "start": "NODE_ENV=development yarn rollup -cw",
+    "test": "yarn jest"
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional",
+      "@commitlint/config-lerna-scopes"
+    ]
+  },
+  "lint-staged": {
+    "packages/**/*.[jt]s?(x)": [
+      "yarn lint:files"
+    ]
+  },
+  "eslintConfig": {
+    "extends": [
+      "@azimutlabs/eslint-config"
+    ]
+  },
+  "eslintIgnore": [
+    ".pnp.js",
+    ".yarn",
+    "**/lib"
+  ],
+  "jest": {
+    "globals": {
+      "ts-jest": {
+        "tsconfig": "tsconfig.test.json"
+      }
+    },
+    "preset": "ts-jest"
+  },
+  "devDependencies": {
+    "@azimutlabs/eslint-config": "^0.9.0",
+    "@azimutlabs/rollup": "^1.0.1",
+    "@babel/core": "^7.14.3",
+    "@commitlint/cli": "^12.1.4",
+    "@commitlint/config-conventional": "^12.1.4",
+    "@commitlint/config-lerna-scopes": "^12.1.4",
+    "@types/jest": "^26.0.23",
+    "@typescript-eslint/eslint-plugin": "^4.24.0",
+    "@typescript-eslint/parser": "^4.24.0",
+    "eslint": "^7.26.0",
+    "eslint-plugin-functional": "^3.2.1",
+    "eslint-plugin-import": "^2.23.2",
+    "eslint-plugin-jest": "^24.3.6",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-react": "^7.23.2",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "husky": "^6.0.0",
+    "jest": "^26.6.3",
+    "jest-junit": "^12.0.0",
+    "lerna": "^4.0.0",
+    "lint-staged": "^11.0.0",
+    "prettier": "^2.3.0",
+    "react": "^17.0.2",
+    "rollup": "^2.48.0",
+    "ts-jest": "^26.5.6",
+    "typescript": "^4.2.4"
+  },
+  "engines": {
+    "node": "=14"
+  }
+}

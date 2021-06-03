@@ -1,0 +1,49 @@
+{
+  "name": "sum",
+  "license": "MIT",
+  "author": "alabs.team <npm@alabs.team>",
+  "sideEffects": false,
+  "main": "lib/index.cjs.js",
+  "module": "lib/index.es.js",
+  "typings": "lib/index.d.ts",
+  "directories": {
+    "lib": "lib",
+    "example": "example",
+    "test": "test"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "compile": "NODE_ENV=production yarn rollup -c",
+    "start": "NODE_ENV=development yarn rollup -cw"
+  },
+  "babel": {
+    "plugins": [
+      "@babel/transform-runtime"
+    ],
+    "presets": [
+      "@babel/env",
+      "@babel/typescript"
+    ]
+  },
+  "browserslist": [
+    "defaults",
+    "node 12"
+  ],
+  "dependencies": {
+    "@babel/runtime": "^7.14.0"
+  },
+  "devDependencies": {
+    "@azimutlabs/rollup-config": "^1.0.1",
+    "@azimutlabs/rollup-config-babel": "^1.0.1",
+    "@azimutlabs/rollup-config-typescript": "^1.0.1",
+    "@babel/core": "^7.14.3",
+    "@babel/plugin-transform-runtime": "^7.14.3",
+    "@babel/preset-env": "^7.14.2",
+    "@babel/preset-typescript": "^7.13.0",
+    "rollup": "^2.48.0",
+    "tslib": "^2.2.0",
+    "typescript": "^4.2.4"
+  }
+}
