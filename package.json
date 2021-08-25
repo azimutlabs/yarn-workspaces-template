@@ -9,7 +9,7 @@
   ],
   "scripts": {
     "compile": "NODE_ENV=production yarn rollup -c",
-    "postinstall": "husky install",
+    "postinstall": "yarn husky install",
     "lint": "yarn eslint packages",
     "lint:files": "yarn eslint --no-ignore --cache --max-warnings 0",
     "start": "NODE_ENV=development yarn rollup -cw",
