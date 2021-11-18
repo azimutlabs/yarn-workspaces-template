@@ -28,7 +28,7 @@
   },
   "eslintConfig": {
     "extends": [
-      "@azimutlabs/eslint-config"
+      "@azimutlabs"
     ]
   },
   "eslintIgnore": [
@@ -45,36 +45,37 @@
     "preset": "ts-jest"
   },
   "devDependencies": {
-    "@azimutlabs/eslint-config": "^1.0.0",
+    "@azimutlabs/eslint-config": "^1.1.1",
     "@azimutlabs/rollup": "^1.0.1",
-    "@babel/core": "^7.15.0",
-    "@commitlint/cli": "^13.1.0",
-    "@commitlint/config-conventional": "^13.1.0",
-    "@commitlint/config-lerna-scopes": "^13.1.0",
-    "@types/jest": "^26.0.24",
-    "@typescript-eslint/eslint-plugin": "^4.29.1",
-    "@typescript-eslint/parser": "^4.29.1",
+    "@babel/core": "^7.16.0",
+    "@commitlint/cli": "^15.0.0",
+    "@commitlint/config-conventional": "^15.0.0",
+    "@commitlint/config-lerna-scopes": "^15.0.0",
+    "@types/jest": "^27.0.2",
+    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "@typescript-eslint/parser": "^5.4.0",
     "eslint": "^7.32.0",
-    "eslint-plugin-functional": "^3.2.1",
-    "eslint-plugin-import": "^2.24.0",
-    "eslint-plugin-jest": "^24.4.0",
-    "eslint-plugin-jsx-a11y": "^6.4.1",
-    "eslint-plugin-prettier": "^3.4.0",
-    "eslint-plugin-react": "^7.24.0",
-    "eslint-plugin-react-hooks": "^4.2.0",
+    "eslint-plugin-functional": "^3.7.2",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jest": "^25.2.4",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.27.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
     "eslint-plugin-simple-import-sort": "^7.0.0",
-    "husky": "^7.0.1",
-    "jest": "^26.6.3",
-    "jest-junit": "^12.2.0",
+    "husky": "^7.0.4",
+    "jest": "^27.3.1",
+    "jest-junit": "^13.0.0",
     "lerna": "^4.0.0",
-    "lint-staged": "^11.1.2",
-    "prettier": "^2.3.2",
+    "lint-staged": "^12.0.2",
+    "prettier": "^2.4.1",
     "react": "^17.0.2",
-    "rollup": "^2.56.2",
-    "ts-jest": "^26.5.6",
-    "typescript": "^4.3.5"
+    "rollup": "^2.60.0",
+    "ts-jest": "^27.0.7",
+    "typescript": "4.4.4"
   },
   "engines": {
     "node": "=14"
-  }
+  },
+  "packageManager": "yarn@3.1.0"
 }
