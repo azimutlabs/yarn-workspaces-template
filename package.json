@@ -45,7 +45,7 @@
     "preset": "ts-jest"
   },
   "devDependencies": {
-    "@azimutlabs/eslint-config": "^1.1.1",
+    "@azimutlabs/eslint-config": "^1.1.2",
     "@azimutlabs/rollup": "^1.0.1",
     "@babel/core": "^7.16.0",
     "@commitlint/cli": "^15.0.0",

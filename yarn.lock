@@ -5,16 +5,16 @@ __metadata:
   version: 5
   cacheKey: 8
 
-"@azimutlabs/eslint-config-core@npm:^1.1.1":
-  version: 1.1.1
-  resolution: "@azimutlabs/eslint-config-core@npm:1.1.1"
+"@azimutlabs/eslint-config-core@npm:^1.1.2":
+  version: 1.1.2
+  resolution: "@azimutlabs/eslint-config-core@npm:1.1.2"
   dependencies:
     "@azimutlabs/eslint-config-env": ^1.1.1
     "@azimutlabs/eslint-env": ^1.0.2
     tslib: ^2.3.1
   peerDependencies:
     eslint: ^7 || ^8
-  checksum: 491aa00559753940ab2769b8283c31b17ceffbab9b6a20ba75754e4302ba06c22b165422c519606dca702fdea5e9fabaaa75b84a54fa78fce37ec7fe0d6f944d
+  checksum: b1136f5e3e8d976f915b76405c8f00d29f0cf0a2c4bdf8aa3b6f70e524a775d6b7825739ea589cfd361b4a31f77b09cb933cd040bf22308b183287b42eefd540
   languageName: node
   linkType: hard
 
@@ -102,9 +102,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@azimutlabs/eslint-config-react@npm:^1.1.1":
-  version: 1.1.1
-  resolution: "@azimutlabs/eslint-config-react@npm:1.1.1"
+"@azimutlabs/eslint-config-react@npm:^1.1.2":
+  version: 1.1.2
+  resolution: "@azimutlabs/eslint-config-react@npm:1.1.2"
   dependencies:
     "@azimutlabs/eslint-config-env": ^1.1.1
     "@azimutlabs/eslint-env": ^1.0.2
@@ -113,13 +113,13 @@ __metadata:
     eslint: ^7 || ^8
     eslint-plugin-react: ^7
     eslint-plugin-react-hooks: ^4
-  checksum: ccfca70356791f9ef6dbe21719b58dbb88e65acd4e7b9c10e2ab41580f13693ed75f545e2f31579091792ef61194fec7e52b28d608ac57e4c9356ebd60f7faa7
+  checksum: 21b01e3cf875c2733dde2d625c94ce12977f7fc1d27f1c1b1bf1ab45aa3879c3f7bbb9d2ea892cb4622cb8d8acafc2b6708803a2cf555475bc6ff3db8f33ed81
   languageName: node
   linkType: hard
 
-"@azimutlabs/eslint-config-typescript@npm:^1.0.2":
-  version: 1.0.2
-  resolution: "@azimutlabs/eslint-config-typescript@npm:1.0.2"
+"@azimutlabs/eslint-config-typescript@npm:^1.0.3":
+  version: 1.0.3
+  resolution: "@azimutlabs/eslint-config-typescript@npm:1.0.3"
   dependencies:
     "@azimutlabs/eslint-config-env": ^1.1.1
     "@azimutlabs/eslint-env": ^1.0.2
@@ -129,22 +129,22 @@ __metadata:
     "@typescript-eslint/parser": ^5.4
     eslint: ^7 || ^8
     typescript: ^4
-  checksum: 1581e7a71a0d530e07b40df553b73763ba62e789a700a1f1c96f1a8489622e4c1ed3dab78792f812639bf4ff439207d4793669dd4449c63ff98eb07ae621c87f
+  checksum: d429d6a1ea3ec5393793e880e7c6b19bb008965ffa877692bb3e485e41d4c40e860969ad554e125e28c2fab59ec0b5c261063b098898d9b8880b3b98a5036bdb
   languageName: node
   linkType: hard
 
-"@azimutlabs/eslint-config@npm:^1.1.1":
-  version: 1.1.1
-  resolution: "@azimutlabs/eslint-config@npm:1.1.1"
+"@azimutlabs/eslint-config@npm:^1.1.2":
+  version: 1.1.2
+  resolution: "@azimutlabs/eslint-config@npm:1.1.2"
   dependencies:
-    "@azimutlabs/eslint-config-core": ^1.1.1
+    "@azimutlabs/eslint-config-core": ^1.1.2
     "@azimutlabs/eslint-config-functional": ^1.1.1
     "@azimutlabs/eslint-config-import": ^1.1.1
     "@azimutlabs/eslint-config-jest": ^1.1.1
     "@azimutlabs/eslint-config-jsx-a11y": ^1.1.1
     "@azimutlabs/eslint-config-prettier": ^1.1.1
-    "@azimutlabs/eslint-config-react": ^1.1.1
-    "@azimutlabs/eslint-config-typescript": ^1.0.2
+    "@azimutlabs/eslint-config-react": ^1.1.2
+    "@azimutlabs/eslint-config-typescript": ^1.0.3
     tslib: ^2.3.1
   peerDependencies:
     "@typescript-eslint/eslint-plugin": ^5
@@ -160,7 +160,7 @@ __metadata:
     eslint-plugin-simple-import-sort: ^7
     prettier: ^2
     typescript: ^4
-  checksum: b8e5e181f7ab5a4368799fa7e5054b049fd1a9714b78f56062d662d24d66388ea6d6a7c46f9cbfb7ec3fbd981db0160a2a7e748c464c6cba9d21514dde9eb7fe
+  checksum: a3821c0b8d88b9ba73ee6ff2e6df2f5bea62d74e92dd5e828b98186246b7a5a5fcefc039b47e77dbfbe118adee56fe4d0cc243da61d6923a8320e135506f5e77
   languageName: node
   linkType: hard
 
@@ -9929,7 +9929,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "project-root@workspace:."
   dependencies:
-    "@azimutlabs/eslint-config": ^1.1.1
+    "@azimutlabs/eslint-config": ^1.1.2
     "@azimutlabs/rollup": ^1.0.1
     "@babel/core": ^7.16.0
     "@commitlint/cli": ^15.0.0
